@@ -1,0 +1,102 @@
+#more {display: none;}
+.indent{
+    Text-indent: 1cm;
+}
+.div{
+    float: left;
+    width: 100%;
+}
+.ar{
+    float: left;
+    width: 94%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    padding: 1%;
+    border: 3px solid black;
+    border-radius: 25px;
+    background-color: rgba(219, 166, 21, 0.541);
+}
+.pp{
+    padding: 2%;
+    Text-indent: 1cm;
+}
+img{
+    float: left;
+    float: left;
+    height: 15%; 
+    width: 11%;
+    margin: 2%;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+header{
+    margin: 2%;
+}
+h1{color: rgb(253, 63, 63);}
+nav{
+    Text-indent: 2cm;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+.nava{
+    margin-right: 3%;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: rgba(124, 153, 43, 0.87);
+}
+button{
+    background-color: rgba(255, 58, 58, 0.678);
+    border: 1px solid rgb(252, 102, 102);
+    border-radius: 25px;
+}
+section{
+    margin-left: 2%;
+}
+body{
+    background-color: rgb(155, 77, 32);
+    background-image: linear-gradient(135deg,rgb(155, 77, 32),rgb(110, 59, 0));
+}
+footer{
+    border-top: 3px solid black;
+    float: left;
+    width: 100%;
+}
+a:link{
+    color: rgb(255, 185, 35);
+}
+a:visited{
+    color: rgb(228, 53, 62);
+}
+a:hover{
+    background-color: rgba(8, 221, 115, 0.849);
+}
+:target{
+   background-color: honeydew;
+}
+@media only screen and (max-width: 1000px) {
+    .pp{
+        float: left;
+        padding: 2%;
+        Text-indent: 1cm;
+    }
+    img{
+        margin: auto 40%;
+        height: 25%; 
+        width: 20%;
+        border: 1px solid black;
+        border-radius: 3px;
+    }
+    nav{
+        text-align: center;
+        border-top: 3px solid black;
+        border-bottom: 3px solid black;
+    }
+    header{
+        text-align: center;
+    }
+    .indent{
+        Text-indent: 0cm;
+    }
+}
